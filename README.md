@@ -32,10 +32,10 @@ python final.py base.npz test.npz --custom_model path/to/custom_model.pt --pretr
 ```
 
 ## Arguments
-base_file (positional): Path to the base .npz file.
-test_file (positional): Path to the test .npz file.
---custom_model (optional): Path to the custom-trained YOLO model. Default is models/custom_yolo.pt.
---pretrained_model (optional): Path to the pre-trained YOLO model. Default is models/yolov8n.pt.
+- `base_file (positional): Path to the base .npz file.`
+- `test_file (positional): Path to the test .npz file.`
+- `--custom_model (optional): Path to the custom-trained YOLO model. Default is models/custom_yolo.pt.`
+- `--pretrained_model (optional): Path to the pre-trained YOLO model. Default is models/yolov8n.pt.`
 
 ## Description
 The script performs the following tasks:
