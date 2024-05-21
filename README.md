@@ -28,7 +28,7 @@ python final.py base.npz test.npz
 
 ## Using a Mix of Positional and Optional Arguments
 ```bash
-python final.py base.npz test.npz --custom_model path/to/custom_model.pt
+python final.py base.npz test.npz --custom_model path/to/custom_model.pt --pretrained_model path/to/pre_trained_mode.pt
 ```
 
 ## Arguments
