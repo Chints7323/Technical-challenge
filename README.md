@@ -56,7 +56,7 @@ python final.py base.npz test.npz --custom_model 'models/custom_yolo.pt' --pretr
 
 The custom YOLO model was trained using a dataset extracted from base.npz files. The dataset was split into 56 training images and 14 validation images. Key training parameters included 30 epochs, a batch size of 8, and an initial learning rate of 0.001 using the Adam optimizer. Various augmentation techniques were applied to enhance model robustness. The model was trained on an NVIDIA Jetson AGX Orin GPU for efficient processing.
 
-For detailed training instructions, refer to the `custom model training/train_yolo.py` script included in the project.
+For detailed training instructions, refer to the `/custom model training/train_yolo.py` script included in the project.
 
 ### Training Script
 To train the custom YOLO model, run the following command:
