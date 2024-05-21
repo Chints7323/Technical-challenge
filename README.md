@@ -40,11 +40,11 @@ python final.py base.npz test.npz --custom_model path/to/custom_model.pt --pretr
 ## Description
 The script performs the following tasks:
 
-Load Base and Test Images: Loads base and test images from .npz files.
-Object Detection on Base Images: Runs object detection on base images using a custom YOLO model.
-Object Detection on Test Images: Runs object detection on test images using both custom and pre-trained YOLO models.
-Identify Changes: Identifies objects that have appeared, disappeared, or are unknown compared to base in test.
-Display Results: Displays the results with bounding boxes and labels for changes.
+1. Load Base and Test Images: Loads base and test images from .npz files.
+2. Object Detection on Base Images: Runs object detection on base images using a custom YOLO model.
+3. Object Detection on Test Images: Runs object detection on test images using both custom and pre-trained YOLO models.
+4. Identify Changes: Identifies objects that have appeared, disappeared, or are unknown compared to base in test.
+5. Display Results: Displays the results with bounding boxes and labels for changes.
 
 
 ## Example Command
